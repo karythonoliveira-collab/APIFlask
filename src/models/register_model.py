@@ -1,6 +1,6 @@
 from connection import db
 import datetime
-class Registro(db.Model):
+class RegistroModel(db.Model):
     __tablename__ = 'registros'
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)

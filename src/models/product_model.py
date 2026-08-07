@@ -1,6 +1,6 @@
 from connection import db
 
-class Produto(db.Model):
+class ProdutoModel(db.Model):
     __tablename__ = 'produtos'
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)

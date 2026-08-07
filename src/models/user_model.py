@@ -1,7 +1,7 @@
 from connection import db
 from passlib.context import CryptContext
 
-class Usuario(db.Model):
+class UsuarioModel(db.Model):
     __tablename__ = 'usuarios'
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
